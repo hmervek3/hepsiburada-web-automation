@@ -1,0 +1,10 @@
+target/
+.gauge/
+gauge_bin/
+logs/
+reports/
+.idea/
+*.iml
+.DS_Store
+*.log
+

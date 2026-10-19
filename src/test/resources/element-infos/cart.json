@@ -1,0 +1,20 @@
+[
+  {
+    "key": "cartItemTitles",
+    "value": "//div[contains(@class, 'product_name') or contains(@class, 'merchant_item')]//a | //a[contains(@class, 'product_name')] | //section[contains(@class, 'basket_list')]//div | //div[contains(@class, 'basket_item')] | //a[contains(@class,'item-title')]",
+    "type": "xpath",
+    "description": "Sepette yer alan ürünlerin başlık linkleri"
+  },
+  {
+    "key": "cartContainer",
+    "value": "//div[contains(@class,'cart-container')] | //section[contains(@class,'cart')] | //div[contains(@class,'basket_list')]",
+    "type": "xpath",
+    "description": "Sepet ana içeriği kapsayıcısı"
+  },
+  {
+    "key": "emptyCartMessage",
+    "value": "//div[contains(@class, 'empty_cart')] | //*[contains(text(), 'Sepetin şu an boş') or contains(text(), 'Sepetin boş') or contains(text(), 'sepetin boş')]",
+    "type": "xpath",
+    "description": "Sepet boş uyarı mesajı elementi"
+  }
+]

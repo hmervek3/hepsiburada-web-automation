@@ -1,0 +1,38 @@
+[
+  {
+    "key": "productDetailTitle",
+    "value": "//h1[@id='product-name'] | //h1[contains(@class,'product-name')] | //h1[@data-test-id='product-name'] | //h1",
+    "type": "xpath",
+    "description": "Ürün detay sayfasındaki ürün ana başlığı"
+  },
+  {
+    "key": "addToCartButton",
+    "value": "//button[@id='addToCart'] | //button[contains(@data-test-id,'addToCart')] | //button[contains(.,'Sepete Ekle')] | //div[@id='addToCart']//button | //button[contains(@class,'add-to-basket')] | //button[contains(@class,'AddToCart')]",
+    "type": "xpath",
+    "description": "Sepete Ekle butonu"
+  },
+  {
+    "key": "cartAddedToastModal",
+    "value": "//span[contains(text(),'Ürün sepete eklendi') or contains(text(),'Sepetinizde') or contains(text(),'Sepete Eklendi')] | //div[contains(@class,'checkoutui-Modal')] | //button[contains(text(),'Sepete git') or contains(text(),'Sepetim')] | //div[contains(@class,'toast')]",
+    "type": "xpath",
+    "description": "Ürün sepete eklendi onay modalı veya toast bildirimi"
+  },
+  {
+    "key": "goToCartButtonInModal",
+    "value": "//button[contains(., 'Sepete git') or contains(., 'Sepete Git') or contains(., 'Sepetim')] | //a[contains(., 'Sepete git') or contains(., 'Sepete Git') or contains(@href,'/sepetim')]",
+    "type": "xpath",
+    "description": "Sepete eklendi bildirim penceresindeki Sepete Git butonu"
+  },
+  {
+    "key": "headerCartIcon",
+    "value": "//span[@id='shoppingCart'] | //a[@id='shoppingCart'] | //a[contains(@href,'/sepetim')] | //a[contains(@class,'cart')]",
+    "type": "xpath",
+    "description": "Sayfa üst menüsündeki Sepetim ikonu"
+  },
+  {
+    "key": "cartBadgeCount",
+    "value": "//*[contains(@class, 'badge') or contains(@class, 'count') or @id='shoppingCart']",
+    "type": "xpath",
+    "description": "Sepetteki ürün adedini gösteren rozet / sayaç"
+  }
+]

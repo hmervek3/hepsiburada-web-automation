@@ -1,0 +1,32 @@
+[
+  {
+    "key": "productListContainer",
+    "value": "//div[contains(@class, 'productListContent') or contains(@id, 'SearchBoxOld') or contains(@class, 'results-container')]",
+    "type": "xpath",
+    "description": "Arama sonuçları ürün listesi ana kapsayıcısı"
+  },
+  {
+    "key": "productCards",
+    "value": "//li[contains(@class,'productListContent')] | //li[contains(@id,'i')] | //article[contains(@class,'productCard')] | //div[@data-test-id='product-card-container']",
+    "type": "xpath",
+    "description": "Arama sonuçlarındaki ürün kartları"
+  },
+  {
+    "key": "productTitleInCard",
+    "value": ".//h3 | .//span[@data-test-id='product-card-name'] | .//h2 | .//a[contains(@class,'title')]",
+    "type": "xpath",
+    "description": "Kart içindeki ürün başlığı elementi"
+  },
+  {
+    "key": "productLinkInCard",
+    "value": ".//a[contains(@href, '-p-') or contains(@href, 'hepsiburada.com')]",
+    "type": "xpath",
+    "description": "Kart içindeki ürün detay linki"
+  },
+  {
+    "key": "productPriceInCard",
+    "value": ".//*[contains(@data-test-id, 'price') or contains(@class, 'price')]",
+    "type": "xpath",
+    "description": "Kart içindeki ürün fiyat elementi"
+  }
+]

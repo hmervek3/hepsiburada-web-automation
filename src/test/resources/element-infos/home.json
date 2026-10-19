@@ -1,0 +1,38 @@
+[
+  {
+    "key": "cookieAcceptButton",
+    "value": "onetrust-accept-btn-handler",
+    "type": "id",
+    "description": "OneTrust çerez kabul butonu ID"
+  },
+  {
+    "key": "myAccountDropdown",
+    "value": "myAccount",
+    "type": "id",
+    "description": "Giriş yap açılır menüsü kapsayıcısı"
+  },
+  {
+    "key": "loginButton",
+    "value": "login",
+    "type": "id",
+    "description": "Giriş yap linki / butonu"
+  },
+  {
+    "key": "searchBoxContainer",
+    "value": "//div[contains(@class,'searchBoxOld')] | //div[contains(@class,'searchBar')] | //div[contains(@class,'SearchBox')] | //input[@placeholder='Ürün, kategori veya marka ara']",
+    "type": "xpath",
+    "description": "Arama kutusu alanı / odaklanma bölgesi"
+  },
+  {
+    "key": "searchBoxInput",
+    "value": "//input[contains(@class,'theme-input')] | //input[@placeholder='Ürün, kategori veya marka ara'] | //div[contains(@class,'searchBoxOld')]//input | //div[contains(@class,'SearchBox')]//input",
+    "type": "xpath",
+    "description": "Arama metninin yazıldığı gerçek input elementi"
+  },
+  {
+    "key": "accountUsernameHeader",
+    "value": "//span[contains(@class,'sf-OldMyAccount')] | //a[@id='myAccount']//span[2] | //div[@id='myAccount']//span | //span[contains(text(),'Hesabım')] | //span[contains(translate(text(), 'MERVE', 'merve'), 'merve')]",
+    "type": "xpath",
+    "description": "Giriş yapıldıktan sonra header'da görünen kullanıcı adı / Hesabım alanı"
+  }
+]

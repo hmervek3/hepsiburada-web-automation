@@ -1,0 +1,20 @@
+[
+  {
+    "key": "defaultUserEmail",
+    "value": "hmervek3@gmail.com",
+    "type": "string",
+    "description": "Test kullanıcısı e-posta adresi"
+  },
+  {
+    "key": "defaultUserPassword",
+    "value": "Bp+iCbsnz7Xi2Q@",
+    "type": "string",
+    "description": "Test kullanıcısı şifresi"
+  },
+  {
+    "key": "searchKeyword",
+    "value": "bilgisayar",
+    "type": "string",
+    "description": "Arama kutusuna yazılacak anahtar kelime"
+  }
+]

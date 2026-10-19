@@ -1,0 +1,8 @@
+# ==============================================================================
+# Hepsiburada Test Ortamı Web Konfigürasyonu
+# ==============================================================================
+baseUrl: "https://www.hepsiburada.com"
+loginUrl: "https://giris.hepsiburada.com"
+cartUrl: "https://checkout.hepsiburada.com"
+timeout: 15
+pageLoadTimeout: 60

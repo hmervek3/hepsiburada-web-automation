@@ -1,0 +1,32 @@
+[
+  {
+    "key": "usernameInput",
+    "value": "//input[@id='txtUserName' or @name='username' or @type='email']",
+    "type": "xpath",
+    "description": "Kullanıcı adı / E-posta giriş alanı"
+  },
+  {
+    "key": "loginSubmitButton",
+    "value": "//button[@id='btnLogin']",
+    "type": "xpath",
+    "description": "1. adım Giriş yap butonu"
+  },
+  {
+    "key": "passwordInput",
+    "value": "//input[@id='txtPassword' or @name='password' or @type='password']",
+    "type": "xpath",
+    "description": "Şifre giriş alanı"
+  },
+  {
+    "key": "emailLoginSubmitButton",
+    "value": "//button[@id='btnEmailSelect' or @id='btnPasswordSelect' or @id='btnLogin']",
+    "type": "xpath",
+    "description": "2. adım Giriş yap / Şifre onay butonu"
+  },
+  {
+    "key": "loginErrorMessage",
+    "value": "//div[contains(@class,'error')] | //div[contains(@class,'alert')] | //span[contains(@class,'error')] | //div[contains(@data-test-id,'error')]",
+    "type": "xpath",
+    "description": "Login hata bildirim alanı"
+  }
+]
